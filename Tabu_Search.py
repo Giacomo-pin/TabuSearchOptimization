@@ -74,8 +74,10 @@ if Shaffer==True:
 # Initial configuration (should be rnd) ----------------------------------------#
 '''
 Values of the function are tabulated. The function is defined on a square with 
-lenght np.power(2,N_bit)). The coordinates x and y range from 0 to np.power(2,N_bit)) and are encoded using the gray binary code. The trial move are defined by the flipping of one bit. Tabu search consists in exploring the whole neighbourhood (flipping of every possible bit) of a certain configuration and in picking the best move. Then we keep trace of the performed bit flip (best one), and we don't allow the algorithm to perform the same flip for a certain time by adding the move in a tabu list.
-
+length np.power(2,N_bit)). The coordinates x and y range from 0 to np.power(2,N_bit)) and are encoded using the gray binary code.
+The trial moves are defined by the flipping of one bit. Tabu search consists in exploring the whole neighbourhood (flipping of every possible bit) of
+a certain configuration and in picking the best move.vThen we keep trace of the performed bit flip (best one), and we don't allow the algorithm to 
+perform the same flip for a certain time by adding the move in a tabu list.
 '''
 
 x1,y1  = [randint(0,np.power(2,N_bit)),randint(0,np.power(2,N_bit))]
