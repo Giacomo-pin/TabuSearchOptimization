@@ -1,4 +1,4 @@
-# TabuSearchOptimization
+# TabuSearchOptimization - 2020
 Tabu search is a metaheuristic search method employing local search methods used for mathematical optimization. 
 
 Local (neighborhood) searches take a potential solution to a problem and check its immediate neighbors (that is, solutions that are similar except for very few minor details) in the hope of finding an improved solution. Local search methods have a tendency to become stuck in suboptimal regions or on plateaus where many solutions are equally fit.
